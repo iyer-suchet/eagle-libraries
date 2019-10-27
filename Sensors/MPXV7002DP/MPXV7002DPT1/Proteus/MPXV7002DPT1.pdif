@@ -1,0 +1,158 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MPXV7002DPT1"
+   (description "NXP - MPXV7002DPT1 - PRESSURE SENSOR, 2 TO -2KPA, SOP-8")
+   (family "ANA")
+   (package "MPXV7002DPT1")
+   (attribute "Datasheet Link" "https://www.arrow.com/en/products/mpxv7002dpt1/nxp-semiconductors")
+   (attribute "Geometry.Height" "9.906mm")
+   (attribute "Arrow Part Number" "MPXV7002DPT1")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/mpxv7002dpt1/nxp-semiconductors")
+   (attribute "Manufacturer_Name" "Nexperia")
+   (attribute "Manufacturer_Part_Number" "MPXV7002DPT1")
+   (gate
+    (symbol "MPXV7002DPT1")
+    (pin "NC_1" 1 PS)
+    (pin "VS" 2 PS)
+    (pin "GND" 3 PS)
+    (pin "VOUT" 4 PS)
+    (pin "NC_2" 5 PS)
+    (pin "NC_3" 6 PS)
+    (pin "NC_4" 7 PS)
+    (pin "NC_5" 8 PS)
+   )
+  )
+  (symbol "MPXV7002DPT1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MPXV7002DPT1"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -6.033 9.207)
+      (pt 6.032 9.207)
+      (pt 6.032 -2.858)
+      (pt -6.033 -2.858)
+      (pt -6.033 9.207))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6.033 9.207)
+      (pt 6.032 9.207)
+      (pt 6.032 -2.857)
+      (pt -6.033 -2.857)
+      (pt -6.033 9.207))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -10.65 10.207)
+      (pt 10.65 10.207)
+      (pt 10.65 -10.207)
+      (pt -10.65 -10.207)
+      (pt -10.65 10.207))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.683 -2.858)
+      (pt -3.683 -9.207)
+      (pt -0.635 -9.207)
+      (pt -0.635 -2.858))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0.635 -2.858)
+      (pt 0.635 -9.207)
+      (pt 3.683 -9.207)
+      (pt 3.683 -2.858))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 10.1 -0.7)
+      (arc (pt 10.100 -0.700) (pt 10.100 -0.800) (pt 10.300 -0.600) (start 180.0) (sweep 180.0))
+      (pt 10.3 -0.7)
+      (arc (pt 10.300 -0.700) (pt 10.100 -0.800) (pt 10.300 -0.600) (start 180.0) (sweep .0))
+      (pt 10.1 -0.7))))
+   (leg 1 (pt 8.380 -0.635) (padstack 0))
+   (leg 2 (pt 8.380 1.905) (padstack 0))
+   (leg 3 (pt 8.380 4.445) (padstack 0))
+   (leg 4 (pt 8.380 6.985) (padstack 0))
+   (leg 5 (pt -8.380 6.985) (padstack 0))
+   (leg 6 (pt -8.380 4.445) (padstack 0))
+   (leg 7 (pt -8.380 1.905) (padstack 0))
+   (leg 8 (pt -8.380 -0.635) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.520 2.540 0 0 0.000))
+   )
+   (model "MPXV7002DPT1.stp"
+    (euler 90 0 90)
+    (offset 3 6.449999809265137 6.849999904632568)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=MPXV7002DPT1
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=8
+Version=1.1
+Released=2019-05-03 10:30:36
+Downloaded=2019-10-25 12:52:39
+3D=Y

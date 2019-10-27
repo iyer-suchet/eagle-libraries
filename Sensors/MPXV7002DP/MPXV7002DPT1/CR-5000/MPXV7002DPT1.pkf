@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MPXV7002DPT1"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MPXV7002DPT1")
+        (spec "default")
+    )
+)
